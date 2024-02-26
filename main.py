@@ -58,9 +58,8 @@ def print_pizza_to_ui(pizza: AbstractPizza) ->None:
 
 
 if __name__ == '__main__':
-    pizza = SmallPizza()
+    pizza = MiddlePizza()
     pizza = Cheese(pizza)
-    pizza = Cheese(pizza)
-    pizza = Cheese(pizza)
+    pizza = Chicken(pizza)
     pizza = Cheese(pizza)
     print_pizza_to_ui(pizza)
